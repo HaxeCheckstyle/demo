@@ -114,6 +114,7 @@ class Main extends Application {
 	}
 
 	//TODO: Optimize function
+
 	function _onUpdate(elapsedTime:Float) {
 		if (isAdding) {
 			if (count < 200000) {
@@ -163,6 +164,8 @@ class Main extends Application {
 	}
 
 	function _onResize() {
+		var count:Int = 0;
+
 		maxX = Browser.window.innerWidth;
 		maxY = Browser.window.innerHeight;
 
