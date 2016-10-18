@@ -1,0 +1,10 @@
+-cmd haxelib newrepo
+-cmd haxelib install pixijs || true
+-cmd mkdir js || true
+
+--next
+-cp src
+-lib pixijs
+-main bunnymark.Main
+-js js/bunnymark.js
+-dce full

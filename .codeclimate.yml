@@ -1,0 +1,12 @@
+engines:
+  haxe-checkstyle:
+    enabled: true
+  fixme:
+    enabled: true
+
+exclude_paths:
+  - js/**/*
+
+ratings:
+  paths:
+    - "**.hx"
